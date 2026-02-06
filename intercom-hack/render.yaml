@@ -14,6 +14,6 @@ services:
         value: ac.sk.production.eb2d2266966e10ba876c559398b2d65fddcd0045907e6b6c0b0fe09358f0e6b1
         sync: false
       - key: AKASH_BASE_URL
-        value: https://console-api.akash.network
+        value: https://api.akashml.com/v1
       - key: AKASH_MODEL
-        value: meta-llama/Meta-Llama-3-8B-Instruct
+        value: meta-llama/Llama-3.3-70B-Instruct

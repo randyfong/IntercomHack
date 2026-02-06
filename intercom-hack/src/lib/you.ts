@@ -20,7 +20,7 @@ export async function searchWeb(query: string): Promise<SearchResult[]> {
     }
 
     try {
-        const response = await fetch(`https://api.ydc-index.io/search?query=${encodeURIComponent(query)}&num_web_results=3`, {
+        const response = await fetch(`https://api.you.com/v1/search?query=${encodeURIComponent(query)}&num_web_results=3`, {
             method: 'GET',
             headers: {
                 'X-API-Key': YOU_API_KEY
@@ -32,12 +32,11 @@ export async function searchWeb(query: string): Promise<SearchResult[]> {
         }
 
         const data = await response.json();
-        // Map the specific You.com response format to our simple interface
-        // Note: You.com API structure may vary, adapting to common 'hits' structure
-        const results = data.hits?.map((hit: Record<string, unknown>) => ({
+        // Map the You.com Search V1 response format
+        const results = data.results?.web?.map((hit: any) => ({
             title: hit.title,
             url: hit.url,
-            snippet: (hit.snippets as string[])?.join(' ') || (hit.description as string) || ''
+            snippet: hit.snippets?.join(' ') || hit.description || ''
         })) || [];
 
         return results;

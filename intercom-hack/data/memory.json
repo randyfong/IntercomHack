@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "1770417191990",
+    "query": "who won the world series this year",
+    "insight": "For current events like the World Series winner, check official or reputable sources like MLB or sports news websites for the most up-to-date information.",
+    "timestamp": "2026-02-06T22:33:11.990Z",
+    "tags": [
+      "who",
+      "won",
+      "world",
+      "series",
+      "this",
+      "year"
+    ]
+  },
+  {
+    "id": "1770417242908",
+    "query": "yes i am looking for information current to the 2025 year",
+    "insight": "For current events, check official or reputable sources for the most accurate information.",
+    "timestamp": "2026-02-06T22:34:02.908Z",
+    "tags": [
+      "yes",
+      "looking",
+      "information",
+      "current",
+      "2025",
+      "year"
+    ]
+  },
+  {
+    "id": "1770417365970",
+    "query": "the los angeles dodgers won the world series in 2025",
+    "insight": "Be cautious of statements about future events, as their accuracy cannot be verified and may be subject to change.",
+    "timestamp": "2026-02-06T22:36:05.970Z",
+    "tags": [
+      "los",
+      "angeles",
+      "dodgers",
+      "won",
+      "world",
+      "series",
+      "2025"
+    ]
+  },
+  {
+    "id": "1770417427842",
+    "query": "who won the world series in 2025",
+    "insight": "For questions about future events, rely on official or reputable sources for the most up-to-date information once the event has occurred, as predictions or statements about the future cannot be verified and may be subject to change.",
+    "timestamp": "2026-02-06T22:37:07.842Z",
+    "tags": [
+      "who",
+      "won",
+      "world",
+      "series",
+      "2025"
+    ]
+  },
+  {
+    "id": "1770418012830",
+    "query": "what was the record of the las vegas raiders this year",
+    "insight": "For current events, check official or reputable sources for the most accurate information.",
+    "timestamp": "2026-02-06T22:46:52.830Z",
+    "tags": [
+      "was",
+      "record",
+      "las",
+      "vegas",
+      "raiders",
+      "this",
+      "year"
+    ]
+  },
+  {
+    "id": "1770418106823",
+    "query": "they only won 3 gams in 2025",
+    "insight": "When evaluating statements about future events, especially those related to specific outcomes like game wins, it's crucial to verify the information through official or reputable sources due to the potential for speculation or outdated data.",
+    "timestamp": "2026-02-06T22:48:26.823Z",
+    "tags": [
+      "they",
+      "only",
+      "won",
+      "gams",
+      "2025"
+    ]
+  },
+  {
+    "id": "1770418186144",
+    "query": "what was the record of the las vegas raiders this year",
+    "insight": "For the most accurate and up-to-date sports team records, check official or reputable sources such as official league websites or reliable sports news outlets.",
+    "timestamp": "2026-02-06T22:49:46.144Z",
+    "tags": [
+      "was",
+      "record",
+      "las",
+      "vegas",
+      "raiders",
+      "this",
+      "year"
+    ]
+  }
+]
