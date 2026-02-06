@@ -51,11 +51,22 @@ export default function ChatInterface() {
         setIsLoading(true);
         setStatus('searching');
 
+        let previousQuestion = undefined;
+        if (input.trim().toLowerCase().startsWith("the answer is:")) {
+            const userMessages = messages.filter(m => m.role === 'user');
+            if (userMessages.length > 0) {
+                previousQuestion = userMessages[userMessages.length - 1].content;
+            }
+        }
+
         try {
             const res = await fetch('/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: userMsg.content }),
+                body: JSON.stringify({
+                    message: userMsg.content,
+                    previousQuestion
+                }),
             });
 
             if (!res.ok) throw new Error('Failed to fetch response');

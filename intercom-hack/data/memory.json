@@ -97,5 +97,64 @@
       "this",
       "year"
     ]
+  },
+  {
+    "id": "1770418706214",
+    "query": "who won the world series in 2025",
+    "insight": "For questions about current or recent events, check official or reputable sources for the most up-to-date information to ensure accuracy.",
+    "timestamp": "2026-02-06T22:58:26.214Z",
+    "tags": [
+      "who",
+      "won",
+      "world",
+      "series",
+      "2025"
+    ]
+  },
+  {
+    "id": "1770418739624",
+    "query": "what teams are in the 2026 super bowl",
+    "insight": "Information about future events, such as teams in upcoming Super Bowls, cannot be known with certainty until the events actually occur or official announcements are made.",
+    "timestamp": "2026-02-06T22:58:59.624Z",
+    "tags": [
+      "teams",
+      "are",
+      "2026",
+      "super",
+      "bowl"
+    ]
+  },
+  {
+    "id": "1770418825107",
+    "query": "who is the mayor of mars",
+    "insight": "There is no mayor of Mars as it is a planet and not a governed city or territory with a human settlement.",
+    "timestamp": "2026-02-06T23:00:25.107Z",
+    "tags": [
+      "who",
+      "mayor",
+      "mars"
+    ]
+  },
+  {
+    "id": "1770418852860",
+    "query": "who is the mayor of mars",
+    "insight": "The answer is: Elon Musk",
+    "timestamp": "2026-02-06T23:00:52.860Z",
+    "tags": [
+      "who",
+      "mayor",
+      "mars"
+    ]
+  },
+  {
+    "id": "1770418877714",
+    "query": "who is the mayor of mars",
+    "insight": "When asking about the mayor of a location named \"Mars\", consider the possibility that the query refers to a terrestrial place named \"Mars\" rather than the planet itself.",
+    "timestamp": "2026-02-06T23:01:17.714Z",
+    "tags": [
+      "who",
+      "mayor",
+      "mars"
+    ]
   }
 ]

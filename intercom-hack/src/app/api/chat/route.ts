@@ -6,10 +6,21 @@ import { findRelevantInsights, saveInsight } from '@/lib/memory';
 
 export async function POST(request: Request) {
     try {
-        const { message } = await request.json();
+        const { message, previousQuestion } = await request.json();
 
         if (!message) {
             return NextResponse.json({ error: 'Message is required' }, { status: 400 });
+        }
+
+        // 0. Handle Manual Answers ("The answer is: ...")
+        if (message.toLowerCase().startsWith("the answer is:") && previousQuestion) {
+            const newInsight = saveInsight(previousQuestion, message);
+            return NextResponse.json({
+                answer: "Thanks! I've stored that answer in my memory for next time.",
+                context: {
+                    new_insight: newInsight
+                }
+            });
         }
 
         // 1. Check Memory for context
