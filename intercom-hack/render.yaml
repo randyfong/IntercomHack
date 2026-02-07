@@ -11,7 +11,7 @@ services:
         value: ydc-sk-da3fa14fea0356b5-006bs94G81MZr6iKa2JtIRqGvTLWhlvf-86e5cd05
         sync: false
       - key: AKASH_API_KEY
-        value: ac.sk.production.eb2d2266966e10ba876c559398b2d65fddcd0045907e6b6c0b0fe09358f0e6b1
+        value: akml-tBwReyFNIffaHCIaJUfhBNKQCYkiNcAw
         sync: false
       - key: AKASH_BASE_URL
         value: https://api.akashml.com/v1
