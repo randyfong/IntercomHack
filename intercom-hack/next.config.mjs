@@ -11,3 +11,4 @@ module.exports = {
         ignoreDuringBuilds: true,
     },
 }
+*/
