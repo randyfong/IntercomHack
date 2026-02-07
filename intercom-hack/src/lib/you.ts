@@ -33,7 +33,7 @@ export async function searchWeb(query: string): Promise<SearchResult[]> {
 
         const data = await response.json();
         // Map the You.com Search V1 response format
-        const results = data.results?.web?.map((hit: any) => ({
+        const results = data.results?.web?.map((hit: anunknowny) => ({
             title: hit.title,
             url: hit.url,
             snippet: hit.snippets?.join(' ') || hit.description || ''

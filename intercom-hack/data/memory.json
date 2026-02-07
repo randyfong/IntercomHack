@@ -166,5 +166,19 @@
       "todays",
       "date"
     ]
+  },
+  {
+    "id": "1770479982951",
+    "query": "what movies are playing in san francisco today",
+    "insight": "For the most up-to-date and accurate information on movie showtimes, check the websites of specific theaters or use a movie ticketing website like Fandango.",
+    "timestamp": "2026-02-07T15:59:42.951Z",
+    "tags": [
+      "movies",
+      "are",
+      "playing",
+      "san",
+      "francisco",
+      "today"
+    ]
   }
 ]
