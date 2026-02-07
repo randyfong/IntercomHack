@@ -34,7 +34,7 @@ export async function searchWeb(query: string): Promise<SearchResult[]> {
         const data = await response.json();
         // Map the You.com Search V1 response format
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const results = data.results?.web?.map((hit: unknown) => ({
+        const results = data.results?.web?.map((hit: any) => ({
             title: hit.title,
             url: hit.url,
             snippet: hit.snippets?.join(' ') || hit.description || ''
